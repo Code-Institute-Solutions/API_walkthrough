@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Menlo-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Menlo-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Menlo";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/Menlo-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Menlo";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/Menlo-BoldItalic.woff") format("woff");
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+body {
+    margin-top: 10px;
+}
+
+textarea  
+{  
+   font-family: "Menlo", 'Courier New', Courier, monospace;
+   height: 25vh;
+}
+
+.modal-body {
+    max-height: 60vh;
+    overflow-y: scroll;
+}
