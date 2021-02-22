@@ -69,7 +69,7 @@ function displayException(data) {
     results += `<div>Error number: <strong>${data.error_no}</strong></div>`;
     results += `<div>Error text: <strong>${data.error}</strong></div>`;
 
-    document.getElementById("resultsModalTitle").innerHTML = heading;
+    document.getElementById("resultsModalTitle").innerText = heading;
     document.getElementById("results-content").innerHTML = results;
     resultsModal.show();
 }
